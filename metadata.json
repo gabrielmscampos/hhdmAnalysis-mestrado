@@ -1,0 +1,322 @@
+{
+    "luminosity": {
+        "APV_2016": 19.5,
+        "2016": 16.8,
+        "2017": 41.4,
+        "2018": 59.8
+    },
+    "btagging": {
+        "APV_2016": {
+            "DeepCSV": {
+                "loose": 0.2027,
+                "medium": 0.6001,
+                "tight": 0.8819
+            },
+            "DeepJet": {
+                "loose": 0.0508,
+                "medium": 0.2598,
+                "tight": 0.6502
+            }
+        },
+        "2016": {
+            "DeepCSV": {
+                "loose": 0.1918,
+                "medium": 0.5847,
+                "tight": 0.8767
+            },
+            "DeepJet": {
+                "loose": 0.0480,
+                "medium": 0.2489,
+                "tight": 0.6377
+            }
+        },
+        "2017": {
+            "DeepCSV": {
+                "loose": 0.1355,
+                "medium": 0.4506,
+                "tight": 0.7738
+            },
+            "DeepJet": {
+                "loose": 0.0532,
+                "medium": 0.3040,
+                "tight": 0.7476
+            }
+        },
+        "2018": {
+            "DeepCSV": {
+                "loose": 0.1208,
+                "medium": 0.4168,
+                "tight": 0.7665
+            },
+            "DeepJet": {
+                "loose": 0.0490,
+                "medium": 0.2783,
+                "tight": 0.7100
+            }
+        }
+    },
+    "datasets": {
+        "ST": {
+            "16": [
+                "ST_t-channel_antitop",
+                "ST_t-channel_top",
+                "ST_tW_antitop",
+                "ST_tW_top"
+            ],
+            "APV_16": [
+                "ST_t-channel_antitop",
+                "ST_t-channel_top",
+                "ST_tW_antitop",
+                "ST_tW_top"
+            ],
+            "17": [
+                "ST_t-channel_antitop",
+                "ST_t-channel_top",
+                "ST_tW_antitop",
+                "ST_tW_top"
+            ],
+            "18": [
+                "ST_t-channel_antitop",
+                "ST_t-channel_top",
+                "ST_tW_antitop",
+                "ST_tW_top"
+            ]
+        },
+        "TT": {
+            "16": [
+                "TTTo2L2Nu",
+                "TTToSemiLeptonic"
+            ],
+            "APV_16": [
+                "TTTo2L2Nu",
+                "TTToSemiLeptonic"
+            ],
+            "17": [
+                "TTTo2L2Nu",
+                "TTToSemiLeptonic"
+            ],
+            "18": [
+                "TTTo2L2Nu",
+                "TTToSemiLeptonic"
+            ]
+        },
+        "ZZ": {
+            "16": [
+                "ZZTo2L2Nu",
+                "ZZTo4L"
+            ],
+            "APV_16": [
+                "ZZTo2L2Nu",
+                "ZZTo4L"
+            ],
+            "17": [
+                "ZZTo2L2Nu",
+                "ZZTo4L"
+            ],
+            "18": [
+                "ZZTo2L2Nu",
+                "ZZTo4L"
+            ]
+        },
+        "WZ": {
+            "16": [
+                "WZTo3LNu"
+            ],
+            "APV_16": [
+                "WZTo3LNu"
+            ],
+            "17": [
+                "WZTo3LNu"
+            ],
+            "18": [
+                "WZTo3LNu"
+            ]
+        },
+        "DY": {
+            "16": [
+                "DYJetsToLL_Pt-0To3",
+                "DYJetsToLL_PtZ-3To50",
+                "DYJetsToLL_PtZ-50To100",
+                "DYJetsToLL_PtZ-100To250",
+                "DYJetsToLL_PtZ-250To400",
+                "DYJetsToLL_PtZ-400To650",
+                "DYJetsToLL_PtZ-650ToInf"
+            ],
+            "APV_16": [
+                "DYJetsToLL_Pt-0To3",
+                "DYJetsToLL_PtZ-3To50",
+                "DYJetsToLL_PtZ-50To100",
+                "DYJetsToLL_PtZ-100To250",
+                "DYJetsToLL_PtZ-250To400",
+                "DYJetsToLL_PtZ-400To650",
+                "DYJetsToLL_PtZ-650ToInf"
+            ],
+            "17": [
+                "DYJetsToLL_Pt-0To3",
+                "DYJetsToLL_PtZ-3To50",
+                "DYJetsToLL_PtZ-50To100",
+                "DYJetsToLL_PtZ-100To250",
+                "DYJetsToLL_PtZ-250To400",
+                "DYJetsToLL_PtZ-400To650",
+                "DYJetsToLL_PtZ-650ToInf"
+            ],
+            "18": [
+                "DYJetsToLL_Pt-0To3",
+                "DYJetsToLL_PtZ-3To50",
+                "DYJetsToLL_PtZ-50To100",
+                "DYJetsToLL_PtZ-100To250",
+                "DYJetsToLL_PtZ-250To400",
+                "DYJetsToLL_PtZ-400To650",
+                "DYJetsToLL_PtZ-650ToInf"
+            ]
+        },
+        "RESIDUAL": {
+            "16": [
+                "GluGluHToWWTo2L2Nu",
+                "ttH_HToZZ",
+                "ttHTobb",
+                "TTWJetsToLNu",
+                "TTWJetsToQQ",
+                "TTWW",
+                "TTWZ",
+                "TTZToLL",
+                "TTZToNuNu",
+                "TTZToQQ",
+                "TTZZ",
+                "TWZToLL_thad_Wlept",
+                "TWZToLL_tlept_Whad",
+                "TWZToLL_tlept_Wlept",
+                "tZq_ll",
+                "WJetsToLNu",
+                "WplusH_HToZZTo4L",
+                "WW",
+                "WWTo2L2Nu",
+                "WWW",
+                "WWZ",
+                "WZ_Inclusive",
+                "WZZ",
+                "ZH_HToBB_ZToLL",
+                "ZZ_Inclusive",
+                "ZZZ"
+            ],
+            "APV_16": [
+                "GluGluHToWWTo2L2Nu",
+                "GluGluHToZZTo4L",
+                "ttH_HToZZ",
+                "ttHTobb",
+                "ttHToTauTau",
+                "TTWJetsToLNu",
+                "TTWJetsToQQ",
+                "TTWW",
+                "TTWZ",
+                "TTZToLL",
+                "TTZToNuNu",
+                "TTZToQQ",
+                "TTZZ",
+                "TWZToLL_thad_Wlept",
+                "TWZToLL_tlept_Wlept",
+                "tZq_ll",
+                "WminusH_HToZZTo4L",
+                "WplusH_HToZZTo4L",
+                "WW",
+                "WWTo2L2Nu",
+                "WWW",
+                "WWZ",
+                "WZ_Inclusive",
+                "WZZ",
+                "ZH_HToBB_ZToLL",
+                "ZH_HToZZ",
+                "ZZ_Inclusive",
+                "ZZZ"
+            ],
+            "17": [
+                "GluGluHToWWTo2L2Nu",
+                "GluGluHToZZTo4L",
+                "ttHTobb",
+                "ttHToTauTau",
+                "TTWJetsToLNu",
+                "TTWJetsToQQ",
+                "TTWW",
+                "TTWZ",
+                "TTZToLL",
+                "TTZToQQ",
+                "TTZZ",
+                "TWZToLL_thad_Wlept",
+                "TWZToLL_tlept_Wlept",
+                "tZq_ll",
+                "WJetsToLNu",
+                "WminusH_HToZZTo4L",
+                "WplusH_HToZZTo4L",
+                "WW",
+                "WWTo2L2Nu",
+                "WWW",
+                "WWZ",
+                "WZ_Inclusive",
+                "WZZ",
+                "ZH_HToBB_ZToLL",
+                "ZZ_Inclusive",
+                "ZZTo2Q2L",
+                "ZZZ"
+            ],
+            "18": [
+                "GluGluHToWWTo2L2Nu",
+                "GluGluHToZZTo4L",
+                "ttH_HToZZ",
+                "ttHTobb",
+                "ttHToTauTau",
+                "TTWJetsToLNu",
+                "TTWJetsToQQ",
+                "TTWW",
+                "TTWZ",
+                "TTZToLL",
+                "TTZToNuNu",
+                "TTZToQQ",
+                "TTZZ",
+                "TWZToLL_thad_Wlept",
+                "TWZToLL_tlept_Whad",
+                "TWZToLL_tlept_Wlept",
+                "WGToLNuG",
+                "WJetsToLNu",
+                "WminusH_HToZZTo4L",
+                "WplusH_HToZZTo4L",
+                "WW",
+                "WWTo2L2Nu",
+                "WWW",
+                "WWZ",
+                "WZ_Inclusive",
+                "WZZ",
+                "ZH_HToBB_ZToLL",
+                "ZH_HToZZ",
+                "ZZ_Inclusive",
+                "ZZZ"
+            ]
+        },
+        "DATA": {
+            "16": [
+                "Data_F",
+                "Data_G",
+                "Data_H"
+            ],
+            "APV_16": [
+                "Data_B",
+                "Data_C",
+                "Data_D",
+                "Data_E",
+                "Data_HIPM_F"
+            ],
+            "17": [
+                "Data_B",
+                "Data_C",
+                "Data_D",
+                "Data_E",
+                "Data_F"
+            ],
+            "18": [
+                "Data_A",
+                "Data_B",
+                "Data_C",
+                "Data_D"
+            ]
+        }
+    }
+}
