@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "hhdmAnalysis"
+version = "0.1.0"
+description = "Code used for HHDMAnalysis research."
+authors = ["Gabriel Moreira <gabrielmscampos@gmail.com>"]
+license = "GNU GPLv3"
+packages = [
+    { include = "hhdm_analysis" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+pyarrow = "^6.0.1"
+anatools = {git = "https://github.com/DESY-CBPF-UERJ/ANATools.git", rev = "main"}
+scikit-learn = "^1.2.0"
+xgboost = "1.4.2"
+pandas = "1.2.3"
+statsmodels = "0.12.2"
+tensorflow = "2.4.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "21.7b0"
+click = "8.0.4"
+isort = "^5.11.3"
+flake8 = "^6.0.0"
+Flake8-pyproject = "^1.2.2"
+pre-commit = "^2.20.0"
+ipykernel = "^6.5.0"
+notebook = "^6.4.5"
+tqdm = "^4.64.1"
+jupyterlab = "^3.5.2"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = 'black'
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = "E203,E501,W503"
+exclude = ".venv"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
